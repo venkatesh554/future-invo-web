@@ -1,0 +1,26 @@
+/* .parent{
+      width: 90vw;
+      height:800px;
+      position:relative;
+      left:10px;
+      top:-60px;
+      overflow-y: hidden;
+
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("./Components/a.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index:2;
+} */
+ .App {
+  height: 500vh; /* only 90% of viewport height */
+  /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+              url("./Components/a.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background-color: rgb(242, 242, 247);;
+  
+}
+
+
+
