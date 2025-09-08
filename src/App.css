@@ -12,7 +12,7 @@
     z-index:2;
 } */
  .App {
-  height: 500vh; /* only 90% of viewport height */
+  height: 810vh; /* only 90% of viewport height */
   /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
               url("./Components/a.jpg");
   background-size: cover;

@@ -53,11 +53,61 @@
   left:1350px;
   
 }
-
+#xmark {
+  font-size: 25px;
+  cursor: pointer;
+  position:relative;
+top:-170px;
+left:230px;
+  opacity:1;
+  
+}
+body.active-modal{
+  overflow-y:hidden;
+  
+}
 #home{
     background-color:blue;
    padding:5px 20px ;
    border-radius:30px;
    color:white;
    
+}
+.pop-up {
+  position: absolute;
+  top: 62px;
+  left: 76%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 400px;
+  background-color: rgb(66, 121, 225);
+  color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-radius:5px;
+}
+
+.pop-up h2{
+  position:absolute;
+  top:0px
+}
+label{
+  position:absolute;
+  left:30px;
+  margin-top:10px;
+}
+input{
+  width:200px;
+  height:30px;
+  border-radius:5px;
+  border:1px solid rgb(214, 208, 208);
+  margin-top:15px;
+}
+button{
+  position:relative;
+  left:50px;
+  top:20px;
+  padding:10px 30px;
 }
