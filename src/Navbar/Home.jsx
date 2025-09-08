@@ -159,7 +159,7 @@ import twentysevennn from "../Empower-images/twentysevennn.png"
 
 
 import icon from "../Components/icon.png"
-
+import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import ten from "../Services-images/ten.png";
 
@@ -236,7 +236,7 @@ function Home() {
                             <p>92% client retention across<br></br>B2B Partnerships</p>
                           </div>
                           <div className="box-2">
-                                                        <img src={two}/>
+                              <img src={two}/>
 
                             <p>35% Faster Deployment<br></br>Using Devops best Practices</p>
                           </div>
@@ -246,7 +246,7 @@ function Home() {
                           </div>
                           <div className="box-4">
                             <img src={four}/>
-                             <p>60% Cost Saving Via AI-<br></br>Based Process Optimization</p>
+                            <p>60% Cost Saving Via AI-<br></br>Based Process Optimization</p>
                           </div>
                           <div className="box-5">
                             <img src={five}/>
@@ -268,8 +268,6 @@ function Home() {
 
                 </div>
                 <p id="down-info">Let Futureinvo turn your challenges into measurable success—smarter, faster, and globally scalable</p>
-
-
                 <div className="block1">
                    <p id="line"></p>
                        <p id="line2"></p>
@@ -287,7 +285,6 @@ function Home() {
                                <img src={kapil4} alt="img4" />
                                 </div>
                            </div>
-
                 </div>
                      <h3 id="h">Solutions We Offer</h3>
                 <div className="block4">
@@ -408,8 +405,6 @@ function Home() {
                     </div>
 
                 </div>
-
-
                 <h2 id="hh">Industries We Empower</h2>
                 <div className="block7">
                    <div className="box-26">
@@ -458,17 +453,19 @@ function Home() {
 
                 <div className="block9">
                   <div className="foot-header">
-                    <p>Address: Secunderabad</p>
-                    <p>Phone: 1800122008</p>
+                    <p><FontAwesomeIcon icon={faLocationDot} /> Address: Secunderabad</p>
+                    <p><FontAwesomeIcon icon={faPhone} /> Phone: 9133308354</p>
 
-                    <p>Email: FutureInvo@gmail.com</p>
+                    <p><FontAwesomeIcon icon={faEnvelope} /> Email: Info@infozit.com</p>
                   </div>
                  
                   <div className="imgss">
+
                     <img src={icon}/>
                     <p>Join us to gain industry insights and hands on experience for success in the digital world</p>
                   </div>
                   <div className="links">
+                    <h2>Follow Us:</h2>
                     <FontAwesomeIcon icon={faFacebook} id="fa"/>
                     <FontAwesomeIcon icon={faInstagram} id="fa" />
                     <FontAwesomeIcon icon={faLinkedin} id="fa" />
@@ -476,7 +473,7 @@ function Home() {
                   </div>
                   <div className="register">
                     <h2>Registered<br></br> Address</h2>
-                    <p>Capitalpark,HighTech City,<br></br>Madhapur,Hyderabad</p>
+                    <p>Capitalpark,HiTech City,<br></br>Madhapur,Hyderabad</p>
                     <h4>Branches:</h4>
                     <p>Siddipet , Vijayanagaram</p>
                    
@@ -486,7 +483,7 @@ function Home() {
                     <p>Bangloore</p>
                     <p>Vishakapatnam</p>
                     <p>Rajahmundry</p>
-                    <p>Vijayavada</p>
+                    <p>Vijayawada</p>
                   </div>
 
                   <div className="detailss">
@@ -499,8 +496,8 @@ function Home() {
                     </ul>
                   </div>
                   <div className="follow">
-                    <h2>Follow Us:</h2>
-                    <p>Copyrights@ 2025 FutureInvo Technologies Pvt.LTD || All Rights Reserved</p>
+                    
+                    <p>Copyrights@ 2025 FutureInvo IT Solutions Pvt.LTD || All Rights Reserved</p>
                   </div>
                 </div>
     

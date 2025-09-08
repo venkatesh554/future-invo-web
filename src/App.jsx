@@ -10,16 +10,13 @@ import Blogs from './Navbar/Blogs';
 import AnimatedCursor from 'react-animated-cursor';
 import Navbar from './Components/Navbar';
 
-
 function App() {
   return (
     <>
     
     <div className="App">
-            <AnimatedCursor />
-
-                        <Navbar/>
-
+      <AnimatedCursor />
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About />}/>
@@ -32,5 +29,4 @@ function App() {
        </>
   )
 }
-
 export default App

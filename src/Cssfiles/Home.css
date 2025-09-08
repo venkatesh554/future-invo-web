@@ -280,7 +280,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     left:120px;
 
     width:1300px;
-    height:500px;
+    height:480px;
     background-color:rgb(226, 226, 249);
     display:flex;
     flex-wrap:wrap;
@@ -1230,7 +1230,7 @@ box-shadow: 5px 5px 10px grey;
       position:relative;
     left:180px;
     width:1200px;
-    height:550px;
+    height:530px;
     background-color:rgb(226, 226, 249);
     display:flex;
     flex-wrap:wrap;
@@ -1242,6 +1242,7 @@ box-shadow: 5px 5px 10px grey;
 .box-26{
     position:relative;
     top:57px;
+    left:20px;
     width:320px;
     height:200px;
     margin-left:45px;
@@ -1255,7 +1256,7 @@ box-shadow: 5px 5px 10px grey;
     width:70px;
     height:70px;
     top:10px;
-     position:relative;
+    position:relative;
     left:20px;    animation: float 3s ease-in-out infinite alternate;
 
 }
@@ -1307,7 +1308,7 @@ box-shadow: 5px 5px 10px grey;
     top:57px;
      width:320px;
     height:200px;
-    margin-left:75px;
+    margin-left:55px;
     background-color: white;
     color:black;    border-radius:5px;
      background-color: pink;box-shadow: 5px 5px 10px grey;
@@ -1336,6 +1337,7 @@ box-shadow: 5px 5px 10px grey;
 .box-29{
     position:relative;
     top:34px;
+    left:20px;
     width:320px;
     height:200px;
     margin-left:45px;
@@ -1404,7 +1406,7 @@ box-shadow: 5px 5px 10px grey;
     top:34px;
  width:320px;
     height:200px;
-    margin-left:75px;
+    margin-left:55px;
     background-color: white;
     color:black;    border-radius:5px;
         background-color:rgb(35, 223, 154);box-shadow: 5px 5px 10px grey;
@@ -1501,8 +1503,8 @@ box-shadow: 5px 5px 10px grey;
     position:relative;
    margin-top:100px;
     left:10px;
-    width:1500px;
-    height:410px;
+    width:1510px;
+    height:310px;
     background-color:rgb(17, 17, 18);
     display:flex;
     flex-wrap:wrap;
@@ -1513,14 +1515,24 @@ box-shadow: 5px 5px 10px grey;
 }
 
 .foot-header {
-   display:flex;
+   /* display:flex;flex-wrap: nowrap;
    width:100%;
    background-color: rgb(109, 105, 233);   
 height:80px;   
-color:white;
+color:white; */
+ display: flex;           /* Align items in a row */
+    gap: -10px;               /* Add space between items */
+    flex-wrap: nowrap;      /* Prevent wrapping to the next line */
+    white-space: nowrap;    /* Keep text from breaking */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color:white;
+    background-color: rgb(33, 121, 199);
+    margin-left:-50px;
 }
 .foot-header p{
-    justify-content:center;
+   
+    width:100%;
     margin-left:400px;position:relative;
     left:-300px;
     
@@ -1551,6 +1563,7 @@ left:20px;
     position:relative;
 width:220px;
 height:80px;
+top:-10px;
 }
 
 .imgss p{
@@ -1559,30 +1572,39 @@ width:200px;
 height:100px;
 color :white;
 font-size:13px;
+top:-30px;
 left:25px;
 }
 .links{
     color: orange;
     position:relative;
-    top:210px;
+    top:110px;
     left:-200px;
+}
+.links h2{
+    position:relative;
+    left:25px;
+    top:10px;
 }
 #fa{
     margin-left:25px;
 }
 .branches{
     position:relative;
-    left:150px;color :aliceblue
+    left:150px;color :aliceblue;
+    top:-20px;
 
 }
 
 .register{
     color :aliceblue;
+    position:relative;
+    top:-20px;
  
 }
 .register p{
     position:relative;
-    top:-10px;
+    top:-20px;
 }
 .detailss{
     position:relative;
@@ -1603,13 +1625,19 @@ left:25px;
 
 .follow{
     position:relative;
-    top:-25px;
+    top:-45px;
     color:aliceblue;
     left:50px;
 }
 .follow p{
      position:relative;
-    top:-20px;
+    top:-8px;
+    text-align:center;
+    left:-49px;
+    color:blue;
+    text-decoration:underline;
+    background-color: #fffdfd;
+    width:1508px;
 }
 
 
