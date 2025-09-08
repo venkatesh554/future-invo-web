@@ -11,6 +11,11 @@ body{
   border-radius: 50%; 
   z-index: 2;
 }
+span{
+     background: linear-gradient(to right,blue, rgb(50, 160, 176));
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .blur{
     width:600px;
     height:600px;
@@ -131,11 +136,11 @@ body{
 @keyframes slideInLeft {
   from {
     opacity: 0;
-    transform: translateX(-200px); /* start 200px left */
+    transform: translateX(-200px); 
   }
   to {
     opacity: 1;
-    transform: translateX(0); /* back to normal */
+    transform: translateX(0); 
   }
 }
 
@@ -160,7 +165,7 @@ body{
       
   
 background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-              url("/a.jpg"); /* note: no ./ */
+              url("/a.jpg"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -169,12 +174,12 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
 }
 @keyframes appear {
   from {
-    opacity: 0;           /* completely transparent */
-    transform: translateY(60px); /* start slightly below */
+    opacity: 0;          
+    transform: translateY(60px); 
   }
   to {
-    opacity: 1;           /* fully visible */
-    transform: translateY(0);    /* move to original position */
+    opacity: 1;           
+    transform: translateY(0);    
   }
 }
 
@@ -253,6 +258,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
 .block2{
     position:relative;
     top:20px;
+    animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 .block2 h2{
     
@@ -276,6 +284,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color:rgb(226, 226, 249);
     display:flex;
     flex-wrap:wrap;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 
 
 }
@@ -290,7 +301,11 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color: white;
     color:black;
     border-radius:5px;
+    box-shadow: 5px 5px 10px grey;
+   
+    
 }
+
 .box-1 p{
     font-size:17px;
     z-index:1;
@@ -298,13 +313,24 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     left:-240px;
     top:90px;
 }
-.box-1 img{
-    position:absolute;
-    left:130px;
-    top:50px;
-    width:45px;
-    height:45px;
+.box-1 img {
+    position: absolute;
+    left: 130px;
+    top: 50px;
+    width: 45px;
+    height: 45px;
+    animation: float 3s ease-in-out infinite alternate;
 }
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(15px);
+    }
+}
+
 
 .box-2{
     position:relative;
@@ -314,6 +340,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-2 img{
@@ -322,6 +349,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     top:50px;
     width:55px;
     height:65px;
+        animation: float 3s ease-in-out infinite alternate;
+
 }
 
 .box-2 p{
@@ -340,6 +369,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-3 img{
@@ -348,6 +378,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     top:50px;
     width:45px;
     height:45px;
+        animation: float 3s ease-in-out infinite alternate;
+
 }
 
 .box-3 p{
@@ -365,6 +397,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-4 img{
@@ -373,6 +409,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     top:50px;
     width:45px;
     height:45px;
+        animation: float 3s ease-in-out infinite alternate;
+
 }
 
 .box-4 p{
@@ -391,6 +429,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-5 img{
@@ -398,7 +440,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     left:130px;
     top:50px;
     width:45px;
-    height:45px;
+    height:45px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 
 .box-5 p{
@@ -417,6 +460,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-6 img{
@@ -424,7 +471,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     left:130px;
     top:50px;
     width:45px;
-    height:45px;
+    height:45px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 
 .box-6 p{
@@ -443,6 +491,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-7 img{
@@ -450,7 +502,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     left:130px;
     top:50px;
     width:45px;
-    height:45px;
+    height:45px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 
 .box-7 p{
@@ -470,6 +523,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-8 img{
@@ -477,7 +534,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     left:130px;
     top:50px;
     width:45px;
-    height:45px;
+    height:45px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 
 .box-8 p{
@@ -508,6 +566,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
 #h{
     font-size:27px;
     text-align:center;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 
 .block4{
@@ -520,6 +581,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     display:flex;
     flex-wrap:wrap;
     margin-top:10px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 .box-9{
     position:relative;
@@ -529,6 +593,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:110px;
     background-color: white;
     color:black;    border-radius:5px;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-9 img{
@@ -536,7 +601,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:65px;
     position:absolute;
     top:20px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-9 p{
     position:relative;
@@ -556,14 +622,16 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:80px;
     background-color: white;
     color:black;    border-radius:5px;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-10 img{
-    width:40px;
-    height:55px;
+    width:50px;
+    height:45px;
     position:absolute;
     top:20px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-10 p{
     position:relative;
@@ -584,14 +652,16 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:80px;
     background-color: white;
     color:black;    border-radius:5px;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-11 img{
     width:40px;
-    height:45px;
+    height:35px;
     position:absolute;
     top:20px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-11 p{
     position:relative;
@@ -612,14 +682,19 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:110px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-12 img{
     width:50px;
-    height:55px;
+    height:45px;
     position:absolute;
     top:20px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-12 p{
     position:relative;
@@ -639,14 +714,19 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:80px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-13 img{
-    width:50px;
-    height:55px;
+    width:40px;
+    height:45px;
     position:absolute;
     top:20px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-13 p{
     position:relative;
@@ -668,6 +748,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:80px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-14 img{
@@ -675,7 +759,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:45px;
     position:absolute;
     top:20px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-14 p{
     position:relative;
@@ -696,6 +781,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:110px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-15 img{
@@ -703,7 +792,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:45px;
     position:absolute;
     top:20px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-15 p{
     position:relative;
@@ -723,6 +813,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:80px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-16 img{
@@ -730,7 +824,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:55px;
     position:absolute;
     top:20px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-16 p{
     position:relative;
@@ -752,6 +847,10 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:80px;
     background-color: white;
     color:black;    border-radius:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-17 img{
@@ -759,7 +858,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:45px;
     position:absolute;
     top:30px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-17 p{
     position:relative;
@@ -781,6 +881,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:370px;
     background-color: rgb(226, 226, 249);
         display:flex;
+         animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 
 }
 
@@ -794,15 +897,15 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     color:black;    border-radius:5px;
     padding:5px;
         padding:10px;
-
+box-shadow: 5px 5px 10px grey;
 
 }
 .box-18 img{
     width:100px;
     height:75px;
     position:absolute;
-   top:-5px;
-    left:-20px;
+   top:-10px;
+    left:-15px;    animation: float 3s ease-in-out infinite alternate;
 }
 .box-18 h3{
     position:relative;
@@ -820,6 +923,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color: blue;
     padding:10px 25px ;
     color:white;    left:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 
 }
 .box-19{
@@ -831,16 +937,17 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color: white;
     color:black;    border-radius:5px;
         padding:10px;
-
+box-shadow: 5px 5px 10px grey;
 
 }
 
 .box-19 img{
-    width:60px;
+    width:50px;
     height:45px;
     position:absolute;
    top:5px;
-    left:-0px;
+    left:-0px;animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-19 h3{
     position:relative;
@@ -858,6 +965,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color: blue;
     padding:10px 25px ;
     color:white;    left:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 
 }
 
@@ -882,7 +992,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
-        padding:10px;
+        padding:10px;box-shadow: 5px 5px 10px grey;
 
 
 }
@@ -891,7 +1001,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:55px;
     position:absolute;
    top:-3px;
-    left:10px;
+    left:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-20 h3{
     position:relative;
@@ -909,6 +1020,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color: blue;
     padding:10px 25px ;
     color:white;    left:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 
 }
 
@@ -920,7 +1034,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:20px;
     background-color: white;
     color:black;    border-radius:5px;
-    padding:10px;
+    padding:10px;box-shadow: 5px 5px 10px grey;
 
 }
 
@@ -931,6 +1045,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     position:absolute;
    top:-3px;
     left:5px;
+        animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-21 h3{
     position:relative;
@@ -949,6 +1065,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     padding:10px 25px ;
     color:white;
     left:5px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 
 
@@ -960,6 +1079,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color:rgb(226, 226, 249);
     display:flex;
     top:50px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
     
 }
 .block6 p{
@@ -982,6 +1104,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:35px;
     background-color: white;
     color:black;    border-radius:5px;
+        box-shadow: 5px 5px 10px grey;
+
 
 }
 .box-22 img{
@@ -990,7 +1114,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     position:relative;
     top:15px;
     left:75px;
-    border-radius:50%;
+    border-radius:50%;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-22 p{
     position:relative;
@@ -1009,6 +1134,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:35px;
     background-color: white;
     color:black;    border-radius:5px;
+        box-shadow: 5px 5px 10px grey;
+
 
 }
 
@@ -1018,7 +1145,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     position:relative;
     top:15px;
     left:75px;
-    border-radius:50%;
+    border-radius:50%;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-23 p{
     position:relative;
@@ -1036,6 +1164,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:35px;
     background-color: white;
     color:black;    border-radius:5px;
+        box-shadow: 5px 5px 10px grey;
+
 
 }
 
@@ -1045,11 +1175,12 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     position:relative;
     top:15px;
     left:75px;
-    border-radius:50%;
+    border-radius:50%;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-24 p{
     position:relative;
-    top:10px;font-size:25px;
+    top:20px;font-size:25px;
     left:20px;
 }
 
@@ -1062,7 +1193,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:250px;
     margin-left:35px;
     background-color: white;
-    color:black;    border-radius:5px;
+    color:black;    border-radius:5px;    box-shadow: 5px 5px 10px grey;
+
 
 }
 
@@ -1072,7 +1204,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     position:relative;
     top:15px;
     left:75px;
-    border-radius:50%;
+    border-radius:50%;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-25 p{
     position:relative;
@@ -1085,6 +1218,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     text-align: center;
     position:relative;
     top:50px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 .block7{
       position:relative;
@@ -1094,7 +1230,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color:rgb(226, 226, 249);
     display:flex;
     flex-wrap:wrap;
-    top:50px;
+    top:50px; animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 
 .box-26{
@@ -1106,6 +1244,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color: white;
     color:black;    border-radius:5px;
     background-color: rgb(201, 17, 201);
+    box-shadow: 5px 5px 10px grey;
 
 }
 .box-26 img{
@@ -1113,7 +1252,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:70px;
     top:10px;
      position:relative;
-    left:20px;
+    left:20px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-26 h4{
     position:relative;
@@ -1131,22 +1271,25 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:75px;
     background-color: white;
     color:black;    border-radius:5px;
-        background-color:yellowgreen
+        background-color:yellowgreen;
+        box-shadow: 5px 5px 10px grey;
 
 }
 .box-27 h4{
     position:relative;
-    left:20px;
+    left:20px; top:-40px;
 }
 .box-27 p{
     position:relative;
     left:20px;
+    top:-40px;
 }
 .box-27 img{
-    width:70px;
-    height:70px;
-    top:10px; position:relative;
-    left:20px;
+    width:100px;
+    height:120px;
+    top:-30px; position:relative;
+    left:20px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-28{
     position:relative;
@@ -1156,7 +1299,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:75px;
     background-color: white;
     color:black;    border-radius:5px;
-     background-color: red;
+     background-color: red;box-shadow: 5px 5px 10px grey;
 
 }
 .box-28 h4{
@@ -1171,7 +1314,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     width:70px;
     height:70px;
      position:relative;
-    left:20px;top:10px;
+    left:20px;top:-10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-29{
     position:relative;
@@ -1181,7 +1325,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:45px;
     background-color: white;
     color:black;    border-radius:5px;
-        background-color:blue
+        background-color:blue;box-shadow: 5px 5px 10px grey;
 
 }
 .box-29 h4{
@@ -1197,7 +1341,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:70px;
     position:relative;
     left:20px;
-    top:10px;
+    top:-10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 .box-30{
     position:relative;
@@ -1207,7 +1352,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:75px;
     background-color: white;
     color:black;    border-radius:5px;
-        background-color:pink;
+        background-color:pink;box-shadow: 5px 5px 10px grey;
 
 }
 .box-30 h4{
@@ -1223,7 +1368,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:70px;
      position:relative;
     left:20px;
-    top:10px;
+    top:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 
 
@@ -1236,7 +1382,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:75px;
     background-color: white;
     color:black;    border-radius:5px;
-        background-color:rgb(35, 223, 154);
+        background-color:rgb(35, 223, 154);box-shadow: 5px 5px 10px grey;
 
 }
 .box-031 h4{
@@ -1252,13 +1398,17 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     height:70px;
      position:relative;
     left:20px;
-    top:10px;
+    top:10px;    animation: float 3s ease-in-out infinite alternate;
+
 }
 #hhh{
     font-size:32px;
     text-align: center;
     position:relative;
     top:50px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 
 .block8{
@@ -1269,7 +1419,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     background-color:rgb(180, 180, 230);
     display:flex;
     flex-wrap:wrap;
-    top:50px;
+    top:50px; animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 
 
@@ -1281,7 +1433,8 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:75px;
     background-color: white;
     color:black;    border-radius:5px;
-    padding:10px 20px;
+    padding:10px 20px;box-shadow: 5px 5px 10px grey;
+    
 
 }
 .box-31 p{
@@ -1301,7 +1454,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     margin-left:350px;
     background-color: white;
     color:black;    border-radius:5px;
-    padding:10px 10px;
+    padding:10px 10px;box-shadow: 5px 5px 10px grey;
 
 }
 .box-32 p{
@@ -1325,6 +1478,9 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     display:flex;
     flex-wrap:wrap;
     top:50px;
+     animation:blockk linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
 }
 
 .foot-header {

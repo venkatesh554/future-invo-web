@@ -150,6 +150,14 @@ import twentyoneee from "../Achievements-images/twentyoneee.png"
 import twentytwooo from "../Achievements-images/twentytwooo.png"
 import twentythreee from "../Achievements-images/twentythreee.png"
 
+import twentyfourrr from "../Empower-images/twentyfourrr.png"
+import twentyfiveee from "../Empower-images/twentyfiveee.png"
+
+import twentysixxx from "../Empower-images/twentysixxx.png"
+
+import twentysevennn from "../Empower-images/twentysevennn.png"
+
+
 import icon from "../Components/icon.png"
 
 
@@ -166,7 +174,7 @@ function Home() {
                  <div className="component1">
                          <h2>"Leading AI & IT Solutions for Seamless Digital Transformation"</h2>
                           <h1>
-                              FutureInvo Solutions - Shaping Your <br />Digital Future With AI & IT Excellence <br />
+                              FutureInvo Solutions - Shaping Your <br />Digital Future With<span> AI & IT Excellence </span> <br />
                            </h1>
                              <p>
                                 At Futureinov Solutions, we empower businesses to grow
@@ -410,28 +418,28 @@ function Home() {
                     <p>Diagnostic AI,Telimedicine Apps</p>
                    </div>
                    <div className="box-27">
-                    <img src={twelve}/>
+                    <img src={twentyfourrr}/>
                     <h4>Logistic</h4>
                     <p>Root Optimization ,fleet Dashboards</p>
                    </div>
                    <div className="box-28">
-                    <img src={twelve}/>
+                    <img src={twentyfiveee}/>
                     <h4>Fintech</h4>
                     <p>KYC,OCR ,Fraud Detection</p>
                    </div>
                    <div className="box-29">
-                    <img src={twelve}/>
+                    <img src={twentysixxx}/>
                     <h4>EDTECH</h4>
                     <p>Adaptive learning,Analytics</p>
                    </div>
                    <div className="box-30">
-                    <img src={twelve}/>
+                    <img src={twentysevennn}/>
                     <h4>GovTech</h4>
                     <p>Citizen Portals,E-Governance</p>
                    </div>
                    <div className="box-031">
                     <img src={twelve}/>
-                    <h4>Health Care</h4>
+                    <h4>NGO's</h4>
                     <p>Diagnostic AI,Telimedicine Apps</p>
                    </div>
                 </div>
