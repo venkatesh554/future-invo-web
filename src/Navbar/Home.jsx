@@ -393,18 +393,18 @@ function Home() {
                   <p>Achievements</p>
                   <h2>We are Increasing<br></br>Business Success</h2>
                     <div className="box-22">
-                    <img src={eleven}/>  <p>120+ Trainers</p>
+                    <img src={eleven}/>  <p><span id="sp1">120+</span> Trainers</p>
                     </div>
                     <div className="box-23">
-                       <img src={twentyoneee}/>  <p>48k+ Trained Students</p>
+                       <img src={twentyoneee}/>  <p><span id="sp1">48k+</span> Trained Students</p>
                     </div>
 
                     <div className="box-24">
-                          <img src={twentytwooo}/>  <p>39k+ Professionals</p>
+                          <img src={twentytwooo}/>  <p><span id="sp1">39k+</span> Professionals</p>
                     </div>
 
                     <div className="box-25">
-                          <img src={twentythreee}/>  <p>14+ Years</p>
+                          <img src={twentythreee}/>  <p><span id="sp1">14+</span> Years</p>
                     </div>
 
                 </div>
@@ -455,18 +455,15 @@ function Home() {
                   </div>
 
                 </div>
+
                 <div className="block9">
                   <div className="foot-header">
-                    <p>Address:</p>
-                    <p>Phone:</p>
+                    <p>Address: Secunderabad</p>
+                    <p>Phone: 1800122008</p>
 
-                    <p>Email:</p>
+                    <p>Email: FutureInvo@gmail.com</p>
                   </div>
-                  <div className="infor">
-                     <p>Secunderabad</p>
-                      <p>1800122008</p>
-                      <p>FutureInvo@gmail.com</p>
-                  </div>
+                 
                   <div className="imgss">
                     <img src={icon}/>
                     <p>Join us to gain industry insights and hands on experience for success in the digital world</p>
@@ -477,14 +474,33 @@ function Home() {
                     <FontAwesomeIcon icon={faLinkedin} id="fa" />
                     <FontAwesomeIcon icon={faYoutube} id="fa" />
                   </div>
+                  <div className="register">
+                    <h2>Registered<br></br> Address</h2>
+                    <p>Capitalpark,HighTech City,<br></br>Madhapur,Hyderabad</p>
+                    <h4>Branches:</h4>
+                    <p>Siddipet , Vijayanagaram</p>
+                   
+                  </div>
+                  <div className="branches">
+                    <h2>Upcomming Branches:</h2>
+                    <p>Bangloore</p>
+                    <p>Vishakapatnam</p>
+                    <p>Rajahmundry</p>
+                    <p>Vijayavada</p>
+                  </div>
+
                   <div className="detailss">
                     <ul>
                       <li>About</li>
                       <li>Apply for job</li>
-                      <li>Contact us Policy</li>
+                      <li>Contact us </li>
                       <li>Terms & conditions</li>
-                      <li>Privacy Policy Contact us</li>
+                      <li>Privacy Policy </li>
                     </ul>
+                  </div>
+                  <div className="follow">
+                    <h2>Follow Us:</h2>
+                    <p>Copyrights@ 2025 FutureInvo Technologies Pvt.LTD || All Rights Reserved</p>
                   </div>
                 </div>
     

@@ -576,7 +576,7 @@ background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     left:120px;
 
     width:1300px;
-    height:1100px;
+    height:980px;
     background-color:rgb(226, 226, 249);
     display:flex;
     flex-wrap:wrap;
@@ -1120,7 +1120,7 @@ box-shadow: 5px 5px 10px grey;
 .box-22 p{
     position:relative;
     top:10px;
-    font-size:25px;
+    font-size:20px;
     left:60px;
 }
 
@@ -1150,7 +1150,7 @@ box-shadow: 5px 5px 10px grey;
 }
 .box-23 p{
     position:relative;
-    top:10px;font-size:25px;
+    top:10px;font-size:20px;
     left:15px;
 }
 
@@ -1168,6 +1168,10 @@ box-shadow: 5px 5px 10px grey;
 
 
 }
+#sp1{
+    font-size:30px;
+    font-weight: bold;
+}
 
 .box-24 img{
     width:120px;
@@ -1180,7 +1184,7 @@ box-shadow: 5px 5px 10px grey;
 }
 .box-24 p{
     position:relative;
-    top:20px;font-size:25px;
+    top:20px;font-size:20px;
     left:20px;
 }
 
@@ -1209,7 +1213,7 @@ box-shadow: 5px 5px 10px grey;
 }
 .box-25 p{
     position:relative;
-    top:10px;font-size:25px;
+    top:10px;font-size:20px;
     left:60px;
 }
 
@@ -1258,10 +1262,14 @@ box-shadow: 5px 5px 10px grey;
 .box-26 h4{
     position:relative;
     left:20px;
+    font-size:20px;
+    color:white;
+
 }
 .box-26 p{
     position:relative;
     left:20px;
+    top:-10px;
 }
 .box-27{
     position:relative;
@@ -1277,12 +1285,15 @@ box-shadow: 5px 5px 10px grey;
 }
 .box-27 h4{
     position:relative;
-    left:20px; top:-40px;
+        font-size:20px;
+
+    left:20px; top:-50px;
+    color:white;
 }
 .box-27 p{
     position:relative;
     left:20px;
-    top:-40px;
+    top:-63px;
 }
 .box-27 img{
     width:100px;
@@ -1299,15 +1310,20 @@ box-shadow: 5px 5px 10px grey;
     margin-left:75px;
     background-color: white;
     color:black;    border-radius:5px;
-     background-color: red;box-shadow: 5px 5px 10px grey;
+     background-color: pink;box-shadow: 5px 5px 10px grey;
 
 }
 .box-28 h4{
     position:relative;
-    left:20px;
+    top:-10px;
+    left:20px;     
+    color:white;
+       font-size:20px;
+
 }
 .box-28 p{
     position:relative;
+    top:-17px;
     left:20px;
 }
 .box-28 img{
@@ -1330,11 +1346,15 @@ box-shadow: 5px 5px 10px grey;
 }
 .box-29 h4{
     position:relative;
+            font-size:20px;
+         top:-15px;
     left:20px;
+    color:white;
 }
 .box-29 p{
     position:relative;
     left:20px;
+    top:-20px;
 }
 .box-29 img{
     width:70px;
@@ -1352,16 +1372,21 @@ box-shadow: 5px 5px 10px grey;
     margin-left:75px;
     background-color: white;
     color:black;    border-radius:5px;
-        background-color:pink;box-shadow: 5px 5px 10px grey;
+        background-color:rgb(229, 68, 20);box-shadow: 5px 5px 10px grey;
 
 }
 .box-30 h4{
     position:relative;
     left:20px;
+            font-size:20px;
+            top:-10px;
+            color:white
+
 }
 .box-30 p{
     position:relative;
     left:20px;
+    top:-20px;
 }
 .box-30 img{
     width:70px;
@@ -1388,10 +1413,14 @@ box-shadow: 5px 5px 10px grey;
 .box-031 h4{
     position:relative;
     left:20px;
+    font-size:20px;
+    color:white;
+    top:-8px;
 }
 .box-031 p{
     position:relative;
     left:20px;
+    top:-20px;
 }
 .box-031 img{
     width:70px;
@@ -1471,13 +1500,13 @@ box-shadow: 5px 5px 10px grey;
 .block9{
     position:relative;
    margin-top:100px;
-    left:180px;
-    width:1200px;
-    height:370px;
+    left:10px;
+    width:1500px;
+    height:410px;
     background-color:rgb(17, 17, 18);
     display:flex;
     flex-wrap:wrap;
-    top:50px;
+    top:20px;
      animation:blockk linear;
     animation-timeline:view();
     animation-range: entry 0% cover 40%;
@@ -1511,12 +1540,17 @@ left:20px;
      justify-content:center;
     margin-left:370px;position:relative;
     left:-300px;width:100%;
+    top:120px;
 }
-
+.imgss{
+    position:relative;
+    left:20px;
+    top:10px;
+}
 .imgss img{
     position:relative;
-width:200px;
-height:100px;
+width:220px;
+height:80px;
 }
 
 .imgss p{
@@ -1530,19 +1564,32 @@ left:25px;
 .links{
     color: orange;
     position:relative;
-    top:190px;
+    top:210px;
     left:-200px;
 }
 #fa{
     margin-left:25px;
 }
+.branches{
+    position:relative;
+    left:150px;color :aliceblue
 
+}
+
+.register{
+    color :aliceblue;
+ 
+}
+.register p{
+    position:relative;
+    top:-10px;
+}
 .detailss{
     position:relative;
     width:250px;
-    left:500px;
-    top:-40px;
-    background-color: aliceblue;
+    left:320px;
+    top:0px;
+    color: aliceblue;
     height:250px;
     border-radius:10px;
 }
@@ -1554,7 +1601,16 @@ left:25px;
 }
 
 
-
+.follow{
+    position:relative;
+    top:-25px;
+    color:aliceblue;
+    left:50px;
+}
+.follow p{
+     position:relative;
+    top:-20px;
+}
 
 
 
