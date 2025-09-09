@@ -111,3 +111,17 @@ button{
   top:20px;
   padding:10px 30px;
 }
+
+@media(width<576px){
+  ul {
+    
+        position: fixed;
+        top: 60px;
+        left: 0;
+        background: #a69a9a;
+        flex-direction: column;
+        width: 200px;
+        padding: 20px;
+        display: block; /* or use a class toggle in React */
+    }
+}

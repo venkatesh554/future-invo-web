@@ -454,9 +454,9 @@ function Home() {
                 <div className="block9">
                   <div className="foot-header">
                     <p><FontAwesomeIcon icon={faLocationDot} /> Address: Secunderabad</p>
-                    <p><FontAwesomeIcon icon={faPhone} /> Phone: 9133308354</p>
+                    <p><FontAwesomeIcon icon={faPhone} /> Phone: 7981107131</p>
 
-                    <p><FontAwesomeIcon icon={faEnvelope} /> Email: Info@infozit.com</p>
+                    <p><FontAwesomeIcon icon={faEnvelope} /> Email: info@futureinvo.com</p>
                   </div>
                  
                   <div className="imgss">

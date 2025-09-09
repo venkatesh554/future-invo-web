@@ -1622,7 +1622,6 @@ left:25px;
     margin-top:20px;
 }
 
-
 .follow{
     position:relative;
     top:-45px;
@@ -1633,7 +1632,7 @@ left:25px;
      position:relative;
     top:-8px;
     text-align:center;
-    left:-49px;
+    left:-49 px;
     color:blue;
     text-decoration:underline;
     background-color: #fffdfd;
@@ -1641,7 +1640,9 @@ left:25px;
 }
 
 
-
+@media(width<576){
+    
+}
 
 
 
