@@ -112,16 +112,42 @@ button{
   padding:10px 30px;
 }
 
-@media(width<576px){
+/* @media(width<576px){
   ul {
-    
+
         position: fixed;
         top: 60px;
-        left: 0;
-        background: #a69a9a;
+        left: 5;
+        
+        background: #9e9aa6;
         flex-direction: column;
-        width: 200px;
-        padding: 20px;
-        display: block; /* or use a class toggle in React */
+        overflow-x:hidden;
+      
+        width: 560px;
+        align-items:center;
+        padding: 10px;
+        display: block; 
     }
+    ul li{
+      margin-top:2px
+    }
+    .logo{
+      position:absolute;
+      left:50px;
+    }
+} */
+
+@media( width < 576px){
+  .navbar {
+    flex-wrap: wrap;
+    display:none;
+    
+  }
+  ul{
+    display:block;
+    flex-direction: column;
+    margin-left:10%;
+    margin-top:10%;
+  }
+
 }

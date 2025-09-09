@@ -55,7 +55,7 @@ span{
     top:130px;
     left:100px;
     line-height: 26px;;
-    color: grey;
+    color: grey;word-wrap: break-word;
 
 }
 .component1 button{
@@ -1637,21 +1637,8 @@ left:25px;
     text-decoration:underline;
     background-color: #fffdfd;
     width:1508px;
+   
 }
-
-
-@media(width<576){
-    
-}
-
-
-
-
-
-
-
-
-
 
 
 
