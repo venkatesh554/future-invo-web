@@ -1641,7 +1641,7 @@ left:25px;
    
 }
 
-@media (width < 576px) {
+@media (width < 375px) {
     body{
         overflow-x:hidden;
     }
@@ -1713,7 +1713,7 @@ color:rgb(67, 66, 66);
     height:2%;
   }
   .block1{
-    margin-top:49%;
+    margin-top:46%;
     left:-10%;
     width:60%;
     height:30%;
