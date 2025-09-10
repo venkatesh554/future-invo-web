@@ -185,7 +185,7 @@ function Home() {
                                    with innovation at the core. Our mission is to turn your ideas into
                                    real, results-driven digital experiences.
                                </p>
-                               <p>
+                               <p id="para2">
                                 We help future-proof your business and drive meaningful
                                transformation. With a team of experienced professionals, we’re
                                         here to guide your journey every step of the way—making your
@@ -230,7 +230,7 @@ function Home() {
                       <p>From fast-growing startups to global brands, 36+ companies rely on Futureinov
                          Solutions to fuel innovation, reduce costs, and scale smarter—powered by AI and IT
                          excellence.</p>
-                         <div className="box">
+                        <div className="box">
                           <div className="box-1">
                             <img src={one}/>
                             <p>92% client retention across<br></br>B2B Partnerships</p>
@@ -264,7 +264,7 @@ function Home() {
                             <img src={eight}/>
                               <p>AI+ Data Science Expertise_<br></br>Turning Data into Business<br></br>Value</p>
                           </div>
-                         </div>
+                        </div>
 
                 </div>
                 <p id="down-info">Let Futureinvo turn your challenges into measurable success—smarter, faster, and globally scalable</p>
