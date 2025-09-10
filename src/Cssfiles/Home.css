@@ -1727,6 +1727,7 @@ left:25px;
     width:60%;
     margin-top:-6%;
     padding:0rem 1rem;      color:#292828;
+      margin-top:-7%;
 
   }
   .block1 #line,#line2{
@@ -1753,6 +1754,7 @@ left:25px;
   .block2 h2{
       margin-left:0%;
       font-size:6vw;
+    
       padding:0.3rem 2rem;
       width:25%;
       color:#292828;
@@ -1818,24 +1820,24 @@ left:25px;
   #h{
       margin-left:0%;
       font-size:6vw;
-      padding:0 3rem;
-      width:25%;
+      padding:0 2rem;
+      width:28%;
       color:#292828;
   }
 
   #hh{
       margin-left:0%;
       font-size:6vw;
-      padding:0 1rem;
-      width:25%;
+      padding:0 1.2rem;
+      width:28%;
       margin-top:-2%;
       color:#292828;
   }
   #hhh{
       margin-left:0%;
       font-size:6vw;
-      padding:2rem 1rem;
-      width:25%;
+      padding: 1rem;
+      width:28%;
       margin-top:-3%;
       color:#292828;
   }
@@ -1920,15 +1922,16 @@ left:25px;
 
   .block5 {
     position: static !important;
-    width: 28% !important;
+    width: 30% !important;
     height: auto !important;
-    padding: 1rem !important;
+    padding: 1rem 2rem !important;
     margin-top: 1rem !important;
     left: 0 !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 1.5rem !important;
     box-sizing: border-box !important;
+    animation: none !important;
     /* background-color: rgb(226, 226, 249) !important; */
   }
   /* All boxes stack vertically, full width */
@@ -1994,9 +1997,9 @@ left:25px;
 
   .block6 {
     position: static !important;
-    width: 28% !important;
+    width: 30% !important;
     height: auto !important;
-    padding: 1rem !important;
+    padding: 1rem 2rem!important;
     margin-top: 1rem !important;
     left: 0 !important;
     top: 0 !important;
@@ -2067,16 +2070,17 @@ left:25px;
 
   .block7 {
     position: static !important;
-    width: 28% !important;
+    width: 30% !important;
     height: auto !important;
-    padding: 1rem !important;
-    margin-top: 1rem !important;
+    padding: 1rem 2rem !important;
+    margin-top: 5rem !important;
     left: 0 !important;
     top: 0 !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 1.5rem !important;
     box-sizing: border-box !important;
+    animation:none !important;
     background-color: rgb(226, 226, 249) !important;
   }
   /* Each box stacks vertically, full width */
@@ -2088,6 +2092,7 @@ left:25px;
     margin-bottom: 1.5rem !important;
     top: 0 !important;
     left: 0 !important;
+    
     box-shadow: 5px 5px 10px grey !important;
     border-radius: 5px !important;
    
@@ -2142,10 +2147,10 @@ left:25px;
 
   .block8 {
     position: static !important;
-    width: 28% !important;
+    width: 30% !important;
     height: auto !important;
-    padding: 1rem !important;
-    margin-top: 1rem !important;
+    padding: 1rem 2rem!important;
+    margin-top: 3rem !important;
     left: 0 !important;
     top: 0 !important;
     display: flex !important;
@@ -2153,6 +2158,7 @@ left:25px;
     gap: 1.5rem !important;
     box-sizing: border-box !important;
     background-color: rgb(180, 180, 230) !important;
+    animation: none !important;
   }
   .block8 > div {
     position: relative !important;
@@ -2189,7 +2195,7 @@ left:25px;
 
   .block9 {
     position: static !important;
-    width: 28% !important;
+    width: 30% !important;
     height: auto !important;
     margin-top: 2rem !important;
     left: 0 !important;
@@ -2197,9 +2203,10 @@ left:25px;
     display: flex !important;
     flex-direction: column !important;
     gap: 2rem !important;
-    padding: 1rem !important;
+    padding: 1rem 2rem !important;
     box-sizing: border-box !important;
-    background-color: rgb(17, 17, 18) !important;
+    animation: none !important;
+   
   }
   .foot-header {
     display: flex !important;
@@ -2239,6 +2246,7 @@ left:25px;
     top: 0 !important;
     left: 0 !important;
     position: static !important;
+  
   }
   .links {
     position: static !important;
@@ -2305,7 +2313,7 @@ left:25px;
     text-decoration: underline !important;
     background-color: transparent !important;
     width: 100% !important;
-    margin: 0 auto !important;
+    margin: -50% auto !important;
   }
 
 }
