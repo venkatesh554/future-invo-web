@@ -224,7 +224,7 @@ function Home() {
                                 </div>
                            </div> 
                 </div>
-                
+
                 <div className="block2">
                       <h2>Started by Startups to Global Enterprises</h2>
                       <p id="blop1">From fast-growing startups to global brands, 36+ companies rely on Futureinov
@@ -288,6 +288,7 @@ function Home() {
                 </div>
                      <h3 id="h">Solutions We Offer</h3>
                 <div className="block4">
+                  
                    <div className="box-9">
                      <img src={nine}></img><p>Artifitial Intelligence <br></br>(AI) Solutions</p>
                     <ul>

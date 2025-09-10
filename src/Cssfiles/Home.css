@@ -1713,7 +1713,7 @@ color:rgb(67, 66, 66);
     height:2%;
   }
   .block1{
-    margin-top:46%;
+    margin-top:50%;
     left:-10%;
     width:100%;
     height:30%;
@@ -1770,7 +1770,7 @@ color:rgb(67, 66, 66);
     position: static; /* remove left offset for small screens */
     width: 100%;      /* full width */
     height: auto;     /* allow height to adjust */
-    padding: 2rem 1rem;    /* add some padding */
+    padding: 2rem;    /* add some padding */
     left: 0;          /* reset left */
     flex-direction: column; /* stack items vertically */
     gap: 1rem;       /* spacing between items */
@@ -1807,9 +1807,167 @@ color:rgb(67, 66, 66);
     width:20%;
     margin-left:3%;
     font-size:3vw;
+    color:#292828
   }
   #bc1{
     margin-top:6%;
+  }
+  
+  #h{
+      margin-left:0%;
+      font-size:6vw;
+      padding:0 1rem;
+      width:25%;
+      color:#292828;
+  }
+
+  .block4 {
+    position: static !important;
+    width: 25% !important;
+    height: auto !important;
+    padding: 1rem 2rem !important;
+    margin-top: 1rem !important;
+    left: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    box-sizing: border-box !important;
+    animation:none !important
+  }
+  /* All boxes stack vertically, full width */
+  .block4 > div {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    margin-bottom: 1.5rem !important;
+    top: 0 !important;
+    box-shadow: 5px 5px 10px grey !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+  }
+  /* Images inside boxes */
+  .block4 img {
+    position: static !important;
+    width: 50px !important;
+    height: auto !important;
+    margin: 0 auto 1rem auto !important;
+    display: block !important;
+    animation: none !important; 
+  }
+  /* Paragraph inside boxes */
+  .block4 p {
+    position: static !important;
+    width: 100% !important;
+    font-weight: bold !important;
+    font-size: 5vw !important;
+    color: rgb(54, 54, 56) !important;
+    text-align: center !important;
+    left: 0 !important;
+    top: 0 !important;
+    margin: 0 0 1rem 0 !important;
+  }
+  /* UL inside boxes */
+  .block4 ul {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    max-height: none !important;
+    overflow: visible !important;
+    padding-left: 1.2rem !important;
+    margin: 0.5rem 0 0 0 !important;
+    color: rgb(41, 41, 154) !important;
+    font-size: 4vw !important;
+    line-height: 1.4 !important;
+    background: transparent !important;
+  }
+  .block4 ul li {
+    display: list-item !important;
+    color: rgb(41, 41, 154) !important;
+    margin-bottom: 0.5rem !important;
+    padding-left:0.8rem;
+  }
+  .block4, .block4 > div {
+    overflow: visible !important;
+    height: auto !important;
+    visibility: visible !important;
+  } 
+  
+
+
+
+
+  .block5 {
+    position: static !important;
+    width: 25% !important;
+    height: auto !important;
+    padding: 1rem !important;
+    margin-top: 1rem !important;
+    left: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    box-sizing: border-box !important;
+    background-color: rgb(226, 226, 249) !important;
+  }
+  /* All boxes stack vertically, full width */
+  .block5 > div {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    margin-bottom: 1.5rem !important;
+    top: 0 !important;
+    box-shadow: 5px 5px 10px grey !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+  }
+  /* Images inside boxes */
+  .block5 img {
+    position: static !important;
+    width: 60px !important;
+    height: auto !important;
+    margin: 0 auto 1rem auto !important;
+    display: block !important;
+    animation: none !important; /* disable float animation on mobile */
+  }
+  /* Headings */
+  .block5 h3 {
+    position: static !important;
+    font-size: 5vw !important;
+    text-align: center !important;
+    margin: 0 0 0.75rem 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  /* Paragraphs */
+  .block5 p {
+    position: static !important;
+    font-size: 4.5vw !important;
+    text-align: center !important;
+    margin: 0 0 1rem 0 !important;
+    top: 0 !important;
+  }
+  /* Buttons */
+  .block5 button {
+    position: static !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+    font-size: 4.5vw !important;
+    padding: 0.5rem 1.5rem !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-color: blue !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    animation: none !important;
   }
 }
 
