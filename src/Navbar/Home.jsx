@@ -268,7 +268,7 @@ function Home() {
 
                 </div>
                 <p id="down-info">Let Futureinvo turn your challenges into measurable success—smarter, faster, and globally scalable</p>
-                <div className="block1">
+                <div className="block1" id="bc1">
                    <p id="line"></p>
                        <p id="line2"></p>
                         <h2>Brand Trust Us</h2>
