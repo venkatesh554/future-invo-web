@@ -1726,7 +1726,7 @@ left:25px;
     font-size:6vw;
     width:60%;
     margin-top:-6%;
-    padding:0rem 2rem;      color:#292828;
+    padding:0rem 1rem;      color:#292828;
 
   }
   .block1 #line,#line2{
@@ -1806,9 +1806,9 @@ left:25px;
     line-height: 1.4;        
   }
   #down-info{
-    width:20%;
-    margin-left:3%;
-    font-size:3vw;
+    width:28%;
+    padding:0rem 1rem;
+    font-size:4vw;
     color:#292828
   }
   #bc1{
@@ -1818,7 +1818,7 @@ left:25px;
   #h{
       margin-left:0%;
       font-size:6vw;
-      padding:0 1rem;
+      padding:0 3rem;
       width:25%;
       color:#292828;
   }
@@ -1841,9 +1841,9 @@ left:25px;
   }
   .block4 {
     position: static !important;
-    width: 28% !important;
+    width: 30% !important;
     height: auto !important;
-    padding: 1rem   !important;
+    padding: 1rem 2rem  !important;
     margin-top: 2rem !important;
     left: 0 !important;
     display: flex !important;
@@ -1895,7 +1895,7 @@ left:25px;
     opacity: 1 !important;
     max-height: none !important;
     overflow: visible !important;
-    padding-left: 1.2rem !important;
+    padding-left: 2rem !important;
     margin: 0.5rem 0 0 0 !important;
     color: rgb(41, 41, 154) !important;
     font-size: 4vw !important;
@@ -1920,7 +1920,7 @@ left:25px;
 
   .block5 {
     position: static !important;
-    width: 26% !important;
+    width: 28% !important;
     height: auto !important;
     padding: 1rem !important;
     margin-top: 1rem !important;
@@ -1929,7 +1929,7 @@ left:25px;
     flex-direction: column !important;
     gap: 1.5rem !important;
     box-sizing: border-box !important;
-    background-color: rgb(226, 226, 249) !important;
+    /* background-color: rgb(226, 226, 249) !important; */
   }
   /* All boxes stack vertically, full width */
   .block5 > div {
@@ -1994,7 +1994,7 @@ left:25px;
 
   .block6 {
     position: static !important;
-    width: 26% !important;
+    width: 28% !important;
     height: auto !important;
     padding: 1rem !important;
     margin-top: 1rem !important;
@@ -2067,7 +2067,7 @@ left:25px;
 
   .block7 {
     position: static !important;
-    width: 26% !important;
+    width: 28% !important;
     height: auto !important;
     padding: 1rem !important;
     margin-top: 1rem !important;
@@ -2142,7 +2142,7 @@ left:25px;
 
   .block8 {
     position: static !important;
-    width: 26% !important;
+    width: 28% !important;
     height: auto !important;
     padding: 1rem !important;
     margin-top: 1rem !important;
@@ -2189,7 +2189,7 @@ left:25px;
 
   .block9 {
     position: static !important;
-    width: 26% !important;
+    width: 28% !important;
     height: auto !important;
     margin-top: 2rem !important;
     left: 0 !important;
