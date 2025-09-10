@@ -1821,11 +1821,18 @@ color:rgb(67, 66, 66);
       color:#292828;
   }
 
+  #hh{
+      margin-left:0%;
+      font-size:6vw;
+      padding:0 1rem;
+      width:25%;
+      color:#292828;
+  }
   .block4 {
     position: static !important;
-    width: 28% !important;
+    width: 26% !important;
     height: auto !important;
-    padding: 1rem 2rem !important;
+    padding: 1rem  !important;
     margin-top: 2rem !important;
     left: 0 !important;
     display: flex !important;
@@ -1901,7 +1908,7 @@ color:rgb(67, 66, 66);
 
   .block5 {
     position: static !important;
-    width: 28% !important;
+    width: 26% !important;
     height: auto !important;
     padding: 1rem !important;
     margin-top: 1rem !important;
@@ -1975,7 +1982,7 @@ color:rgb(67, 66, 66);
 
   .block6 {
     position: static !important;
-    width: 28% !important;
+    width: 26% !important;
     height: auto !important;
     padding: 1rem !important;
     margin-top: 1rem !important;
@@ -2041,6 +2048,83 @@ color:rgb(67, 66, 66);
     font-size: 6vw !important;
     font-weight: bold !important;
   }
+
+
+
+
+
+  .block7 {
+    position: static !important;
+    width: 26% !important;
+    height: auto !important;
+    padding: 1rem !important;
+    margin-top: 1rem !important;
+    left: 0 !important;
+    top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    box-sizing: border-box !important;
+    background-color: rgb(226, 226, 249) !important;
+  }
+  /* Each box stacks vertically, full width */
+  .block7 > div {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    margin-bottom: 1.5rem !important;
+    top: 0 !important;
+    left: 0 !important;
+    box-shadow: 5px 5px 10px grey !important;
+    border-radius: 5px !important;
+   
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  /* Preserve individual box background colors */
+  .box-26 { background-color: rgb(201, 17, 201) !important; }
+  .box-27 { background-color: yellowgreen !important; }
+  .box-28 { background-color: pink !important; }
+  .box-29 { background-color: blue !important; }
+  .box-30 { background-color: rgb(229, 68, 20) !important; }
+  .box-031 { background-color: rgb(35, 223, 154) !important; }
+  /* Images inside boxes */
+  .block7 img {
+    position: static !important;
+    width: 80px !important;
+    height: auto !important;
+    margin-bottom: 1rem !important;
+    border-radius: 50% !important;
+    animation: none !important; /* disable float animation on mobile */
+    left: 0 !important;
+    top: 0 !important;
+  }
+  /* Headings */
+  .block7 h4 {
+    position: static !important;
+    font-size: 5vw !important;
+    margin: 0 0 0.5rem 0 !important;
+
+    left: 0 !important;
+    top: 0 !important;
+    color:#292828
+  }
+  /* Paragraphs */
+  .block7 p {
+    position: static !important;
+    font-size: 4.5vw !important;
+    margin: 0 !important;
+    color:#292828;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+
 }
 
 
