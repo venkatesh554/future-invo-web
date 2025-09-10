@@ -1672,10 +1672,8 @@ left:25px;
     margin-top:7%;
   }
   .component1 button{
-   
-    left:3%;
-   
-    margin-top:40%;
+   left:3%;
+   top:50%;
   }
   .component1 h1 {
     
@@ -1693,19 +1691,19 @@ color:rgb(67, 66, 66);
   }
   .blur{
       width:35%;
-      height:29%;
+      height:30%;
       left:20%;
-      padding:3rem;top:60%;
+      padding:3rem;top:50%;
       
   }
   .orbit-container{
      width:22%;
-      height:47%;
+      height:40%;
       left:0%;
       margin:-25%;
       margin:-30% ;
       
-      margin-top:-26%;
+      margin-top:-24%;
       padding:4rem 6rem;
   }
   .ani{
