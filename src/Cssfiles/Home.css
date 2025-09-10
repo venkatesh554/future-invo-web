@@ -1775,12 +1775,12 @@ left:25px;
     position: static; /* remove left offset for small screens */
     width: 100%;      /* full width */
     height: auto;     /* allow height to adjust */
-    padding: 1rem;    /* add some padding */
+    padding: 1rem 1.5rem;    /* add some padding */
     left: 0;          /* reset left */
     flex-direction: column; /* stack items vertically */
     gap: 1rem;       /* spacing between items */
     overflow: visible; /* ensure no clipping */
-    margin-top:2%;
+    margin-top:1%;
     margin-left:0.2%;
       animation: none !important;
   }
@@ -1933,7 +1933,7 @@ left:25px;
     gap: 1.5rem !important;
     box-sizing: border-box !important;
     animation: none !important;
-    /* background-color: rgb(226, 226, 249) !important; */
+    background-color: rgb(226, 226, 249) !important;
   }
   /* All boxes stack vertically, full width */
   .block5 > div {
