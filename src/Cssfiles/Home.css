@@ -1747,6 +1747,7 @@ left:25px;
   }
   .block2{
     animation: none !important;
+    width:100%;
     
     
     
@@ -1774,7 +1775,7 @@ left:25px;
     position: static; /* remove left offset for small screens */
     width: 100%;      /* full width */
     height: auto;     /* allow height to adjust */
-    padding: 2rem;    /* add some padding */
+    padding: 1rem;    /* add some padding */
     left: 0;          /* reset left */
     flex-direction: column; /* stack items vertically */
     gap: 1rem;       /* spacing between items */
