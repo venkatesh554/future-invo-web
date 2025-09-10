@@ -224,7 +224,7 @@ function Home() {
                                 </div>
                            </div> 
                 </div>
-
+                
                 <div className="block2">
                       <h2>Started by Startups to Global Enterprises</h2>
                       <p id="blop1">From fast-growing startups to global brands, 36+ companies rely on Futureinov
