@@ -1742,16 +1742,37 @@ color:rgb(67, 66, 66);
     padding:0.8rem;
     margin-right:100px;
   }
+  .block2{
+    animation: none !important;
+  }
+  .block2 h2{
+      margin-left:0%;
+      font-size:6vw;
+      padding:0 1rem;
+      width:25%;
+     
+
+  }
+  #blop1{
+    width:24%;
+    margin-left:-28%;
+      font-size:4vw;
+      padding:0.2rem;
+      left:30%;
+
+  }
+ 
   .block2 .box {
     position: static; /* remove left offset for small screens */
     width: 100%;      /* full width */
     height: auto;     /* allow height to adjust */
-    padding: 1rem;    /* add some padding */
+    padding: 2rem 1rem;    /* add some padding */
     left: 0;          /* reset left */
     flex-direction: column; /* stack items vertically */
     gap: 1rem;       /* spacing between items */
     overflow: visible; /* ensure no clipping */
-    margin-top:10%;
+    margin-top:2%;
+    margin-left:1%;
       animation: none !important;
   }
   .block2 .box > div {
@@ -1769,6 +1790,14 @@ color:rgb(67, 66, 66);
     font-size: 4vw;   /* responsive font size */
     margin-top: 0;
     text-align: center;
+  }
+ 
+  .block2 > p {
+    font-size: 4vw;          /* responsive font size */
+    margin-top: 1rem;
+    text-align: center;      /* center align paragraph */
+    padding: 0 1rem;         /* horizontal padding */
+    line-height: 1.4;        /* improve readability */
   }
 }
 

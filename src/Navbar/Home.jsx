@@ -227,10 +227,10 @@ function Home() {
 
                 <div className="block2">
                       <h2>Started by Startups to Global Enterprises</h2>
-                      <p>From fast-growing startups to global brands, 36+ companies rely on Futureinov
+                      <p id="blop1">From fast-growing startups to global brands, 36+ companies rely on Futureinov
                          Solutions to fuel innovation, reduce costs, and scale smarter—powered by AI and IT
                          excellence.</p>
-                        <div className="box">
+                         <div className="box">
                           <div className="box-1">
                             <img src={one}/>
                             <p>92% client retention across<br></br>B2B Partnerships</p>
