@@ -1713,10 +1713,10 @@ color:rgb(67, 66, 66);
     height:2%;
   }
   .block1{
-    margin-top:50%;
+    margin-top:60%;
     left:-10%;
     width:100%;
-    height:30%;
+    height:10%;
     margin-left:-17%;
     
     
@@ -1780,28 +1780,28 @@ color:rgb(67, 66, 66);
       animation: none !important;
   }
   .block2 .box > div {
-    width: 20%;      /* full width for each box */
-    flex: none;       /* disable flex-grow/shrink */
-    margin-bottom: 1rem; /* spacing between boxes */
+    width: 20%;     
+    flex: none;       
+    margin-bottom: 1rem; 
   }
   .block2 .box img {
-    margin-top: -10%;    /* reset negative margin */
-    max-width: 80px;  /* limit image size */
+    margin-top: -10%;   
+    max-width: 80px;  
     height: auto;
     margin-bottom: 0.5rem;
   }
   .block2 .box p {
-    font-size: 4vw;   /* responsive font size */
+    font-size: 4vw;   
     margin-top: 0;
     text-align: center; color:#292828;
   }
  
   .block2 > p {
-    font-size: 4vw;          /* responsive font size */
+    font-size: 4vw;        
     margin-top: 1rem;
-    text-align: center;      /* center align paragraph */
-    padding: 0 1rem;         /* horizontal padding */
-    line-height: 1.4;        /* improve readability */
+    text-align: center;      
+    padding: 0 1rem;        
+    line-height: 1.4;        
   }
   #down-info{
     width:20%;
@@ -1810,7 +1810,7 @@ color:rgb(67, 66, 66);
     color:#292828
   }
   #bc1{
-    margin-top:6%;
+    margin-top:8%;
   }
   
   #h{
@@ -1823,10 +1823,10 @@ color:rgb(67, 66, 66);
 
   .block4 {
     position: static !important;
-    width: 25% !important;
+    width: 28% !important;
     height: auto !important;
     padding: 1rem 2rem !important;
-    margin-top: 1rem !important;
+    margin-top: 2rem !important;
     left: 0 !important;
     display: flex !important;
     flex-direction: column !important;
@@ -1901,7 +1901,7 @@ color:rgb(67, 66, 66);
 
   .block5 {
     position: static !important;
-    width: 25% !important;
+    width: 28% !important;
     height: auto !important;
     padding: 1rem !important;
     margin-top: 1rem !important;
@@ -1933,7 +1933,7 @@ color:rgb(67, 66, 66);
     height: auto !important;
     margin: 0 auto 1rem auto !important;
     display: block !important;
-    animation: none !important; /* disable float animation on mobile */
+     /* disable float animation on mobile */
   }
   /* Headings */
   .block5 h3 {
@@ -1968,6 +1968,78 @@ color:rgb(67, 66, 66);
     border-radius: 4px !important;
     cursor: pointer !important;
     animation: none !important;
+  }
+
+
+
+
+  .block6 {
+    position: static !important;
+    width: 28% !important;
+    height: auto !important;
+    padding: 1rem !important;
+    margin-top: 1rem !important;
+    left: 0 !important;
+    top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    box-sizing: border-box !important;
+    background-color: rgb(226, 226, 249) !important;
+  } 
+  .block6 > p {
+    position: static !important;
+    margin-left: 1rem !important;
+    font-size: 5vw !important;
+    font-weight: bold !important;
+    color: black !important;
+  }
+  .block6 > h2 {
+    position: static !important;
+    margin: 0 1rem 1rem 1rem !important;
+    font-size: 7vw !important;
+    line-height: 1.2 !important;
+    color: black !important;
+  }
+  /* Boxes stack vertically, full width */
+  .block6 > div {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    margin-bottom: 1.5rem !important;
+    top: 0 !important;
+    left: 0 !important;
+    box-shadow: 5px 5px 10px grey !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  /* Images inside boxes */
+  .block6 img {
+    position: static !important;
+    width: 80px !important;
+    height: auto !important;
+    margin-bottom: 1rem !important;
+    border-radius: 50% !important;
+    /* disable float animation on mobile */
+  }
+  /* Paragraphs inside boxes */
+  .block6 > div p {
+    position: static !important;
+    font-size: 5vw !important;
+    margin: 0 !important;
+    color: black !important;
+  }
+  /* Span inside paragraphs */
+  #sp1 {
+    font-size: 6vw !important;
+    font-weight: bold !important;
   }
 }
 
