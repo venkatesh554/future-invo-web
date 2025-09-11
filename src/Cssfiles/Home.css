@@ -1643,179 +1643,7 @@ left:25px;
 }
 
 
-
-
-
-
 @media (width < 576px) {
-
-
-@media (max-width: 575.98px) {
-  .block9 {
-    position: relative !important;
-    width: 100% !important;
-    height: auto !important;
-    margin-top: 2rem !important;
-    left: 0 !important;
-    top: 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 1.5rem !important;
-    padding: 1rem !important;
-    background-color: rgb(17, 17, 18) !important;
-    box-sizing: border-box !important;
-    animation: none !important;
-  }
-
-  .foot-header {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 0.5rem !important;
-    white-space: normal !important;
-    margin-left: 0 !important;
-    padding: 0.5rem 1rem !important;
-    font-size: 4vw !important;
-    color: white !important;
-    background-color: rgb(33, 121, 199) !important;
-    width: 100% !important;
-    text-align: center !important;
-  }
-
-  .foot-header p {
-    margin-left: 0 !important;
-    position: static !important;
-  }
-
-  .imgss {
-    position: static !important;
-    left: 0 !important;
-    top: 0 !important;
-    text-align: center !important;
-    padding: 0.5rem 1rem !important;
-  }
-
-  .imgss img {
-    width: 150px !important;
-    height: auto !important;
-    margin: 0 auto 1rem auto !important;
-    position: static !important;
-    top: 0 !important;
-  }
-
-  .imgss p {
-    width: 100% !important;
-    height: auto !important;
-    font-size: 4vw !important;
-    color: white !important;
-    position: static !important;
-    text-align: center !important;
-    margin: 0 auto !important;
-  }
-
-  .links {
-    position: static !important;
-    top: 0 !important;
-    left: 0 !important;
-    text-align: center !important;
-    color: orange !important;
-    font-size: 5vw !important;
-    padding: 0.5rem 1rem !important;
-  }
-
-  .links h2 {
-    margin-bottom: 0.5rem !important;
-    font-size: 6vw !important;
-    position: static !important;
-    left: 0 !important;
-    top: 0 !important;
-  }
-
-  #fa {
-    margin-left: 0.5rem !important;
-    font-size: 6vw !important;
-  }
-
-  .register, .branches, .detailss {
-    position: static !important;
-    width: 100% !important;
-    margin-left: 0 !important;
-    margin-bottom: 1.5rem !important;
-    padding: 0 1rem !important;
-    color: aliceblue !important;
-    text-align: center !important;
-  }
-
-  .register p, .branches p {
-    position: static !important;
-    top: 0 !important;
-    left: 0 !important;
-    font-size: 4vw !important;
-  }
-
-  .detailss {
-    width: 100% !important;
-    height: auto !important;
-    left: 0 !important;
-    top: 0 !important;
-    border-radius: 10px !important;
-    padding: 1rem !important;
-    box-sizing: border-box !important;
-  }
-
-  .detailss ul {
-    padding: 0 !important;
-    list-style-type: none !important;
-  }
-
-  .detailss ul li {
-    margin-top: 1rem !important;
-    font-size: 4vw !important;
-  }
-
-  .follow {
-    position: static !important;
-    top: 0 !important;
-    left: 0 !important;
-    color: aliceblue !important;
-    text-align: center !important;
-    padding: 1rem !important;
-    font-size: 3.5vw !important;
-    background-color: transparent !important;
-    width: 100% !important;
-  }
-
-  .follow p {
-    position: static !important;
-    top: 0 !important;
-    left: 0 !important;
-    color: blue !important;
-    text-decoration: underline !important;
-    background-color: transparent !important;
-    width: 100% !important;
-    margin: 0 auto !important;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     body{
         overflow-x:hidden;
@@ -1854,7 +1682,7 @@ left:25px;
    
   }
   .component1 button{
-    margin-top:44%;
+    margin-top:46%;
     padding:0.8rem 0.7rem;
     left:3%;
   }
@@ -1905,7 +1733,7 @@ left:25px;
 
   .profile-image {
    
-    left:-165%;
+    left:-155%;
   }
 
   .ani {
@@ -1959,18 +1787,6 @@ left:25px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
   .block1{
     margin-top:50%;
     left:-10%;
@@ -1985,7 +1801,7 @@ left:25px;
     font-size:6vw;
     width:50%;
     
-    padding:0rem 4rem;      color:#292828;
+    padding:0rem 6rem;      color:#292828;
       margin-top:-7%;
 
   }
@@ -2026,14 +1842,14 @@ left:25px;
     width:25%;
     margin-left:-30%;
       font-size:4vw;
-      padding:0rem 4rem;
+      padding:0rem 2rem;
       color:#292828;
 
   }
  
   .block2 .box {
     position: static; /* remove left offset for small screens */
-    width: 90%;      /* full width */
+    width: 100%;      /* full width */
     height: auto;     /* allow height to adjust */
     padding: 1rem ;    /* add some padding */
     left: 0;          /* reset left */
@@ -2045,9 +1861,10 @@ left:25px;
       animation: none !important;
   }
   .block2 .box > div {
-    width: 24%;     
+    width: 25%;     
     flex: none;       
     margin-bottom: 2rem; 
+    margin-left:1.5rem;
   }
   .block2 .box img {
     margin-top: -10%;   
@@ -2069,8 +1886,8 @@ left:25px;
     line-height: 1.4;        
   }
   #down-info{
-    width:24%;
-    padding:0rem 1.5rem;
+    width:27%;
+    padding:0rem 1.7rem;
     font-size:4vw;
     color:#292828
   }
@@ -2081,7 +1898,7 @@ left:25px;
   #h{
       margin-left:0%;
       font-size:6vw;
-      padding:0 0.5rem;
+      padding:0 2rem;
       width:28%;
       color:#292828;
   }
@@ -2104,30 +1921,33 @@ left:25px;
   }
   .block4 {
     position: static !important;
-    width: 29% !important;
+    width: 32% !important;
     height: auto !important;
-    padding: 1rem 2rem  !important;
+    padding: 1rem 2rem !important;
     margin-top: 2rem !important;
+   
     left: 0 !important;
     display: flex !important;
     flex-direction: column !important;
     gap: 1.5rem !important;
     box-sizing: border-box !important;
-    animation:none !important;
+    animation:none !important; 
     
   }
   /* All boxes stack vertically, full width */
   .block4 > div {
     position: relative !important;
-    width: 90% !important;
+    width:95% !important;
     height: auto !important;
-    margin-left: 0 !important;
+    margin-left: 2% !important;
     margin-bottom: 1.5rem !important;
     top: 0 !important;
+    
     box-shadow: 5px 5px 10px grey !important;
     border-radius: 5px !important;
     background-color: white !important;
-    padding: 1rem !important;
+    padding: 0.5rem  !important;
+    padding-left:1rem;
     box-sizing: border-box !important;
   }
   /* Images inside boxes */
@@ -2183,7 +2003,7 @@ left:25px;
 
   .block5 {
     position: static !important;
-    width: 26% !important;
+    width: 31% !important;
     height: auto !important;
     padding: 1rem 2rem!important;
     margin-top: 1rem !important;
@@ -2200,7 +2020,7 @@ left:25px;
     position: relative !important;
     width: 100% !important;
     height: auto !important;
-    margin-left: 0 !important;
+    margin-left: 1% !important;
     margin-bottom: 1.5rem !important;
     top: 0 !important;
     box-shadow: 5px 5px 10px grey !important;
@@ -2258,7 +2078,7 @@ left:25px;
 
   .block6 {
     position: static !important;
-    width: 27% !important;
+    width: 31% !important;
     height: auto !important;
     padding: 1rem 2rem!important;
     margin-top: 1rem !important;
@@ -2331,7 +2151,7 @@ left:25px;
 
   .block7 {
     position: static !important;
-    width: 27% !important;
+    width: 31% !important;
     height: auto !important;
     padding: 1rem 2rem !important;
     margin-top: 5rem !important;
@@ -2347,9 +2167,9 @@ left:25px;
   /* Each box stacks vertically, full width */
   .block7 > div {
     position: relative !important;
-    width: 100% !important;
+    width: 95% !important;
     height: auto !important;
-    margin-left: 0 !important;
+    margin-left: 2% !important;
     margin-bottom: 1.5rem !important;
     top: 0 !important;
     left: 0 !important;
@@ -2408,7 +2228,7 @@ left:25px;
 
   .block8 {
     position: static !important;
-    width: 27% !important;
+    width: 31% !important;
     height: auto !important;
     padding: 1rem 2rem!important;
     margin-top: 3rem !important;
@@ -2461,7 +2281,7 @@ left:25px;
 
   .block9 {
     position: static !important;
-    width: 30% !important;
+    width: 31% !important;
     height: auto !important;
     margin-top: 2rem !important;
     left: 0 !important;
