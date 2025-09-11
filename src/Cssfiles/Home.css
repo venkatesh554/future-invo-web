@@ -1935,7 +1935,7 @@ left:25px;
     position: relative !important;
     width:97% !important;
     height: auto !important;
-    margin-left: 0.8% !important;
+    margin-left: -0.5% !important;
     margin-bottom: 1.5rem !important;
     top: 0 !important;
     
@@ -2296,7 +2296,7 @@ left:25px;
     flex-direction: column !important;
     gap: 0.5rem !important;
     white-space: normal !important;
-    margin-left: -1rem !important;
+    margin-left: -0.5rem !important;
     padding: 0 1rem !important;
     font-size: 4vw !important;
     color: white !important;
@@ -2312,6 +2312,7 @@ left:25px;
     left: 0 !important;
     top: 0 !important;
     text-align: center !important;
+     margin-left: -2.5rem !important;
     padding: 0 1rem !important;
   }
   .imgss img {
@@ -2338,6 +2339,7 @@ left:25px;
     text-align: center !important;
     color: orange !important;
     font-size: 5vw !important;
+     margin-left: -3rem !important;
     padding: 0 1rem !important;
   }
   .links h2 {
@@ -2346,10 +2348,12 @@ left:25px;
     position: static !important;
     left: 0 !important;
     top: 0 !important;
+
   }
   #fa {
     margin-left: 1rem !important;
     font-size: 6vw !important;
+    
   }
   .register, .branches, .detailss {
     position: static !important;
@@ -2358,7 +2362,8 @@ left:25px;
     margin-bottom: 1.5rem !important;
     padding: 0 1rem !important;
     color: aliceblue !important;
-    text-align: center !important;
+    text-align: center !important;     margin-left: -1rem !important;
+
   }
   .register p, .branches p {
     position: static !important;
@@ -2386,17 +2391,18 @@ left:25px;
     padding: 1rem !important;
     font-size: 3.5vw !important;
     background-color: transparent !important;
-    width: 100% !important;
+    width: 100% !important; margin-top:-23rem;
   }
   .follow p {
     position: static !important;
-    top: 0 !important;
+    top: 0% !important;
     left: 0 !important;
     color: blue !important;
     text-decoration: underline !important;
     background-color: transparent !important;
     width: 100% !important;
-    margin: -0% auto !important;
+    margin: 0% auto !important;
+   
   }
 
 } 
