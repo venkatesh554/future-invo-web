@@ -1642,7 +1642,181 @@ left:25px;
    
 }
 
+
+
+
+
+
 @media (width < 576px) {
+
+
+@media (max-width: 575.98px) {
+  .block9 {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 2rem !important;
+    left: 0 !important;
+    top: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    padding: 1rem !important;
+    background-color: rgb(17, 17, 18) !important;
+    box-sizing: border-box !important;
+    animation: none !important;
+  }
+
+  .foot-header {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+    white-space: normal !important;
+    margin-left: 0 !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 4vw !important;
+    color: white !important;
+    background-color: rgb(33, 121, 199) !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .foot-header p {
+    margin-left: 0 !important;
+    position: static !important;
+  }
+
+  .imgss {
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    text-align: center !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .imgss img {
+    width: 150px !important;
+    height: auto !important;
+    margin: 0 auto 1rem auto !important;
+    position: static !important;
+    top: 0 !important;
+  }
+
+  .imgss p {
+    width: 100% !important;
+    height: auto !important;
+    font-size: 4vw !important;
+    color: white !important;
+    position: static !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  .links {
+    position: static !important;
+    top: 0 !important;
+    left: 0 !important;
+    text-align: center !important;
+    color: orange !important;
+    font-size: 5vw !important;
+    padding: 0.5rem 1rem !important;
+  }
+
+  .links h2 {
+    margin-bottom: 0.5rem !important;
+    font-size: 6vw !important;
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+  }
+
+  #fa {
+    margin-left: 0.5rem !important;
+    font-size: 6vw !important;
+  }
+
+  .register, .branches, .detailss {
+    position: static !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 1.5rem !important;
+    padding: 0 1rem !important;
+    color: aliceblue !important;
+    text-align: center !important;
+  }
+
+  .register p, .branches p {
+    position: static !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: 4vw !important;
+  }
+
+  .detailss {
+    width: 100% !important;
+    height: auto !important;
+    left: 0 !important;
+    top: 0 !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    box-sizing: border-box !important;
+  }
+
+  .detailss ul {
+    padding: 0 !important;
+    list-style-type: none !important;
+  }
+
+  .detailss ul li {
+    margin-top: 1rem !important;
+    font-size: 4vw !important;
+  }
+
+  .follow {
+    position: static !important;
+    top: 0 !important;
+    left: 0 !important;
+    color: aliceblue !important;
+    text-align: center !important;
+    padding: 1rem !important;
+    font-size: 3.5vw !important;
+    background-color: transparent !important;
+    width: 100% !important;
+  }
+
+  .follow p {
+    position: static !important;
+    top: 0 !important;
+    left: 0 !important;
+    color: blue !important;
+    text-decoration: underline !important;
+    background-color: transparent !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     body{
         overflow-x:hidden;
     }
@@ -1725,13 +1899,13 @@ left:25px;
   .orbit-container {
     width: 300px;
     height: 300px;
-    top: -30%;
+    top: -40%;
     
   }
 
   .profile-image {
    
-    left:-185%;
+    left:-165%;
   }
 
   .ani {
@@ -2228,7 +2402,7 @@ left:25px;
     top: 0 !important;
   }
 
-}
+
 
 
 
@@ -2283,7 +2457,7 @@ left:25px;
 
  
 
-/* 
+
 
   .block9 {
     position: static !important;
@@ -2416,7 +2590,8 @@ left:25px;
 
 
 
- */
+
+
 
 
 
