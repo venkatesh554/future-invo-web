@@ -1727,20 +1727,20 @@ left:25px;
   .orbit-container {
     width: 300px;
     height: 300px;
-    top: -40%;
+    top: -30%;
     
   }
 
   .profile-image {
    
-    left:-160%;
+    left:-185%;
   }
 
   .ani {
     width: 8px;
     height: 8px;
-    top: -150%;
-    left: -110%;
+    top: -170%;
+    left: -150%;
   }
 
   #p1 {
@@ -1860,9 +1860,9 @@ left:25px;
  
   .block2 .box {
     position: static; /* remove left offset for small screens */
-    width: 100%;      /* full width */
+    width: 90%;      /* full width */
     height: auto;     /* allow height to adjust */
-    padding: 1rem 1.5rem;    /* add some padding */
+    padding: 1rem ;    /* add some padding */
     left: 0;          /* reset left */
     flex-direction: column; /* stack items vertically */
     gap: 1rem;       /* spacing between items */
@@ -2279,6 +2279,8 @@ left:25px;
     top: 0 !important;
   }
 
+/* 
+
 
 
   .block9 {
@@ -2404,10 +2406,10 @@ left:25px;
     margin: -0% auto !important;
   }
 
+} */
+
+
 }
-
-
-
 
 
 
