@@ -1907,7 +1907,7 @@ left:25px;
   #h{
       margin-left:0%;
       font-size:6vw;
-      padding:0 1.5rem;
+      padding:0 0.5rem;
       width:28%;
       color:#292828;
   }
@@ -1930,7 +1930,7 @@ left:25px;
   }
   .block4 {
     position: static !important;
-    width: 30% !important;
+    width: 29% !important;
     height: auto !important;
     padding: 1rem 2rem  !important;
     margin-top: 2rem !important;
@@ -2009,7 +2009,7 @@ left:25px;
 
   .block5 {
     position: static !important;
-    width: 27% !important;
+    width: 26% !important;
     height: auto !important;
     padding: 1rem 2rem!important;
     margin-top: 1rem !important;
@@ -2247,6 +2247,9 @@ left:25px;
     background-color: rgb(180, 180, 230) !important;
     animation: none !important;
   }
+ .grand-father{
+    background-color: white;
+ }
   .block8 > div {
     position: relative !important;
     width: 100% !important;
@@ -2278,7 +2281,7 @@ left:25px;
     top: 0 !important;
   }
 
-/* 
+ 
 
 
 
@@ -2405,10 +2408,7 @@ left:25px;
     margin: -0% auto !important;
   }
 
-} */
-
-
-}
+} 
 
 
 
