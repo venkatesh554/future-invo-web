@@ -1845,7 +1845,7 @@ left:25px;
  
   .block2 .box {
     position: static; /* remove left offset for small screens */
-    width: 95%;      /* full width */
+    width: 97%;      /* full width */
     height: auto;     /* allow height to adjust */
     padding: 1rem ;    /* add some padding */
     left: 0;          /* reset left */
@@ -1853,7 +1853,7 @@ left:25px;
     gap: 1rem;       /* spacing between items */
     overflow: visible; /* ensure no clipping */
     margin-top:0%;
-    margin-left:-1%;
+    margin-left:0%;
       animation: none !important;
   }
   .block2 .box > div {
@@ -1917,7 +1917,7 @@ left:25px;
   }
   .block4 {
     position: static !important;
-    width: 30% !important;
+    width: 31% !important;
     height: auto !important;
     padding: 1rem  !important;
     margin-top: 2rem !important;
@@ -1935,7 +1935,7 @@ left:25px;
     position: relative !important;
     width:97% !important;
     height: auto !important;
-    margin-left: -1% !important;
+    margin-left: 0.8% !important;
     margin-bottom: 1.5rem !important;
     top: 0 !important;
     
@@ -2016,7 +2016,7 @@ left:25px;
     position: relative !important;
     width: 97% !important;
     height: auto !important;
-    margin-left: -1% !important;
+    margin-left: 0.1% !important;
     margin-bottom: 1.5rem !important;
     top: 0 !important;
     box-shadow: 5px 5px 10px grey !important;
@@ -2078,7 +2078,7 @@ left:25px;
     height: auto !important;
     padding: 1rem 2rem!important;
     margin-top: 1rem !important;
-    margin-left:-1rem;
+    margin-left:0.1rem;
     left: 0 !important;
     top: 0 !important;
     display: flex !important;
@@ -2166,7 +2166,7 @@ left:25px;
     position: relative !important;
     width: 95% !important;
     height: auto !important;
-    margin-left: -1% !important;
+    margin-left: 0.8% !important;
     margin-bottom: 1.5rem !important;
     top: 0 !important;
     left: 0 !important;
@@ -2803,4 +2803,5 @@ left:20px;
     font-size:50px;
     font-style:normal;
     font-weight:bold;
-} */ 
+}  
+ */
