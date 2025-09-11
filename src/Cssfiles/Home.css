@@ -1,6 +1,7 @@
 
 body{
     overflow-x:hidden;
+  
 }
 .profile-image {
     position:absolute;
@@ -1689,29 +1690,108 @@ left:25px;
     margin-top:38%;
     padding:0.8rem 0.7rem;
   }
-  .blur{
+  /* .blur{
       width:35%;
-      height:30%;
+      height:20%;
       left:20%;
-      padding:3rem;top:50%;
+      padding:3rem;top:70%;
       
   }
   .orbit-container{
      width:22%;
-      height:40%;
+      height:35%;
       left:0%;
       margin:-25%;
       margin:-30% ;
       
-      margin-top:-24%;
-      padding:4rem 6rem;
+      margin-top:-20%;
+      padding:4rem 3rem;
   }
   .ani{
-    margin-top:-30%;
-    margin-left:9%;
-    width:2%;
-    height:2%;
+    margin-top:-40%;
+    margin-left:39%;
+    width:3%;
+    height:3%;
+  } */
+
+
+
+
+  .orbit-container {
+    width: 300px;
+    height: 300px;
+    top: -30%;
+    
   }
+
+  .profile-image {
+   
+    left:-150%;
+  }
+
+  .ani {
+    width: 8px;
+    height: 8px;
+    top: -150%;
+    left: -120%;
+  }
+
+  #p1 {
+    animation: orbit1-small 6s linear infinite;
+  }
+
+  #p2 {
+    animation: orbit2-small 8s linear infinite;
+  }
+
+  #p3 {
+    animation: orbit3-small 10s linear infinite;
+  }
+
+  .blur {
+    width: 250px;
+    height: 250px;
+    left: 15%;
+    top: 60%;
+    filter: blur(25px);
+  }
+
+
+/* Smaller orbit animations for small screens */
+@keyframes orbit1-small {
+  from { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+  to { transform: rotate(460deg) translateX(100px) rotate(-360deg); }
+}
+
+@keyframes orbit2-small {
+  from { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+  to { transform: rotate(460deg) translateX(125px) rotate(-360deg); }
+}
+
+@keyframes orbit3-small {
+  from { transform: rotate(0deg) translateX(50px) rotate(0deg); }
+  to { transform: rotate(460deg) translateX(125px) rotate(-360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .block1{
     margin-top:50%;
     left:-10%;
@@ -2314,7 +2394,7 @@ left:25px;
     text-decoration: underline !important;
     background-color: transparent !important;
     width: 100% !important;
-    margin: 0% auto !important;
+    margin: -0% auto !important;
   }
 
 }
