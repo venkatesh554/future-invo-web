@@ -1662,7 +1662,7 @@ left:25px;
     left:3%;
     padding:0.1rem;
     font-size:4vw;
-    margin-top:23%; color:#292828;
+    margin-top:33%; color:#292828;
     
   }
   .component1 #para2{
@@ -1670,7 +1670,7 @@ left:25px;
   }
   .component1 button{
    left:3%;
-   top:50%;
+   top:55%;
   }
   .component1 h1 {
     
@@ -1727,20 +1727,20 @@ left:25px;
   .orbit-container {
     width: 300px;
     height: 300px;
-    top: -30%;
+    top: -40%;
     
   }
 
   .profile-image {
    
-    left:-150%;
+    left:-160%;
   }
 
   .ani {
     width: 8px;
     height: 8px;
     top: -150%;
-    left: -120%;
+    left: -110%;
   }
 
   #p1 {
