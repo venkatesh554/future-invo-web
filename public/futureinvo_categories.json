@@ -1,0 +1,128 @@
+{
+  "IT Consulting": {
+    "link": "https://www.futureinvo.com/services/IT-Consulting",
+    "subcategories": {
+      "Strategy & Roadmap Consulting": "https://www.futureinvo.com/services/IT-Consulting#strategy-roadmap",
+      "Enterprise Architecture": "https://www.futureinvo.com/services/IT-Consulting#enterprise-architecture",
+      "Technology Modernization": "https://www.futureinvo.com/services/IT-Consulting#technology-modernization",
+      "IT Infrastructure Consulting": "https://www.futureinvo.com/services/IT-Consulting#infrastructure",
+      "Digital Transformation Advisory": "https://www.futureinvo.com/services/IT-Consulting#digital-transformation"
+    }
+  },
+  "Web Development": {
+    "link": "https://www.futureinvo.com/services/Web-Development",
+    "subcategories": {
+      "Custom Website Development": "https://www.futureinvo.com/services/Web-Development#custom-website",
+      "E-commerce Platforms": "https://www.futureinvo.com/services/Web-Development#ecommerce",
+      "CMS Development (WordPress, Drupal)": "https://www.futureinvo.com/services/Web-Development#cms",
+      "API Development & Integration": "https://www.futureinvo.com/services/Web-Development#api",
+      "Progressive Web Apps (PWAs)": "https://www.futureinvo.com/services/Web-Development#pwa"
+    }
+  },
+  "Web Design": {
+    "link": "https://www.futureinvo.com/services/Web-Design",
+    "subcategories": {
+      "UI/UX Design": "https://www.futureinvo.com/services/Web-Design#uiux",
+      "Responsive Design": "https://www.futureinvo.com/services/Web-Design#responsive",
+      "Landing Page Design": "https://www.futureinvo.com/services/Web-Design#landing-page",
+      "Graphic & Branding Design": "https://www.futureinvo.com/services/Web-Design#graphic-branding",
+      "Wireframing & Prototyping": "https://www.futureinvo.com/services/Web-Design#wireframing"
+    }
+  },
+  "Mobile Applications": {
+    "link": "https://www.futureinvo.com/services/Mobile-Applications",
+    "subcategories": {
+      "Android Development": "https://www.futureinvo.com/services/Mobile-Applications#android",
+      "iOS Development": "https://www.futureinvo.com/services/Mobile-Applications#ios",
+      "Cross Platform (Flutter/React Native)": "https://www.futureinvo.com/services/Mobile-Applications#cross-platform",
+      "AI Integrated Apps (Voice/Camera)": "https://www.futureinvo.com/services/Mobile-Applications#ai-integrated",
+      "Push Notification Systems": "https://www.futureinvo.com/services/Mobile-Applications#push-notification"
+    }
+  },
+  "Digital Marketing Services": {
+    "link": "https://www.futureinvo.com/services/Digital-Marketing-services",
+    "subcategories": {
+      "Search Engine Optimization (SEO)": "https://www.futureinvo.com/services/Digital-Marketing-services#seo",
+      "Search Engine Marketing (SEM)": "https://www.futureinvo.com/services/Digital-Marketing-services#sem",
+      "Social Media Optimization (SMO)": "https://www.futureinvo.com/services/Digital-Marketing-services#smo",
+      "Pay-Per-Click (PPC)": "https://www.futureinvo.com/services/Digital-Marketing-services#ppc",
+      "Email Marketing": "https://www.futureinvo.com/services/Digital-Marketing-services#email",
+      "Content Marketing": "https://www.futureinvo.com/services/Digital-Marketing-services#content"
+    }
+  },
+  "AI & Artificial Intelligence Solutions": {
+    "link": "https://www.futureinvo.com/services/AI-Artifical-Intillegence-solutions",
+    "subcategories": {
+      "AI Powered Chatbots (LeadGen, HR, Customer Support)": "https://www.futureinvo.com/services/AI-Artifical-Intillegence-solutions#chatbots",
+      "Image & Video Intelligence": "https://www.futureinvo.com/services/AI-Artifical-Intillegence-solutions#image-video",
+      "AI OCR & Document Intelligence": "https://www.futureinvo.com/services/AI-Artifical-Intillegence-solutions#ocr"
+    }
+  },
+  "Data Science & Big Data Analytics": {
+    "link": "https://www.futureinvo.com/services/data-science-big-data-analytics",
+    "subcategories": {
+      "Data Warehousing & ETL Pipelines": "https://www.futureinvo.com/services/data-science-big-data-analytics#etl",
+      "Real-time Analytics & Dashboards": "https://www.futureinvo.com/services/data-science-big-data-analytics#dashboards",
+      "Predictive & Prescriptive Models": "https://www.futureinvo.com/services/data-science-big-data-analytics#predictive"
+    }
+  },
+  "Machine Learning & Deep Learning": {
+    "link": "https://www.futureinvo.com/services/machine-learning-deep-learning",
+    "subcategories": {
+      "Forecasting & Time Series Analysis": "https://www.futureinvo.com/services/machine-learning-deep-learning#forecasting",
+      "Fraud Detection Systems": "https://www.futureinvo.com/services/machine-learning-deep-learning#fraud-detection",
+      "Recommendation Engines": "https://www.futureinvo.com/services/machine-learning-deep-learning#recommendation"
+    }
+  },
+  "Full Stack Web & SaaS Development": {
+    "link": "https://www.futureinvo.com/services/full-stack-saas-development",
+    "subcategories": {
+      "Scalable SaaS Platforms (ERP, CRM, LMS)": "https://www.futureinvo.com/services/full-stack-saas-development#saas",
+      "B2B/B2C Portals with Custom Roles": "https://www.futureinvo.com/services/full-stack-saas-development#b2b-b2c",
+      "API-First Backend (REST, GraphQL)": "https://www.futureinvo.com/services/full-stack-saas-development#api-backend"
+    }
+  },
+  "Cloud Services & DevOps Automation": {
+    "link": "https://www.futureinvo.com/services/cloud-devops-automation",
+    "subcategories": {
+      "AWS Architecture": "https://www.futureinvo.com/services/cloud-devops-automation#architecture-aws",
+      "Azure Architecture": "https://www.futureinvo.com/services/cloud-devops-automation#architecture-azure",
+      "GCP Architecture": "https://www.futureinvo.com/services/cloud-devops-automation#architecture-gcp",
+      "Dockerization & Kubernetes": "https://www.futureinvo.com/services/cloud-devops-automation#docker",
+      "Serverless (Lambda, Cloud Run)": "https://www.futureinvo.com/services/cloud-devops-automation#serverless"
+    }
+  },
+  "Cybersecurity Solutions": {
+    "link": "https://www.futureinvo.com/services/cybersecurity-solutions",
+    "subcategories": {
+      "Penetration Testing & Vulnerability Assessment": "https://www.futureinvo.com/services/cybersecurity-solutions#pentest",
+      "Network & Cloud Security": "https://www.futureinvo.com/services/cybersecurity-solutions#cloud-security",
+      "Endpoint & Application Security": "https://www.futureinvo.com/services/cybersecurity-solutions#endpoint",
+      "Data Privacy & Compliance (GDPR, ISO, SOC2)": "https://www.futureinvo.com/services/cybersecurity-solutions#compliance",
+      "Managed Security Services (MSSP)": "https://www.futureinvo.com/services/cybersecurity-solutions#mssp"
+    }
+  },
+  "Business Tools Development": {
+    "link": "https://www.futureinvo.com/services/business-tools",
+    "subcategories": {
+      "CRM Development": "https://www.futureinvo.com/services/business-tools#crm",
+      "Sales Automation & Lead Tracking": "https://www.futureinvo.com/services/business-tools#crm-sales",
+      "Client Support Portals": "https://www.futureinvo.com/services/business-tools#crm-support",
+      "E-learning Platforms (LMS)": "https://www.futureinvo.com/services/business-tools#lms",
+      "Corporate Training Solutions": "https://www.futureinvo.com/services/business-tools#lms-corporate",
+      "Gamified Learning Modules": "https://www.futureinvo.com/services/business-tools#lms-gamified",
+      "Payroll & Attendance Automation (HRMS)": "https://www.futureinvo.com/services/business-tools#hrms-payroll",
+      "Recruitment & Onboarding Tools": "https://www.futureinvo.com/services/business-tools#hrms-recruitment",
+      "Performance Management Systems": "https://www.futureinvo.com/services/business-tools#hrms-performance",
+      "Property Management Platforms (Real Estate)": "https://www.futureinvo.com/services/business-tools#real-estate",
+      "Broker & Agent CRM": "https://www.futureinvo.com/services/business-tools#real-estate-crm",
+      "Rental & Lease Management": "https://www.futureinvo.com/services/business-tools#real-estate-rentals",
+      "Accounting & Billing Systems (Finance)": "https://www.futureinvo.com/services/business-tools#finance-accounting",
+      "Investment & Portfolio Management": "https://www.futureinvo.com/services/business-tools#finance-investment",
+      "Expense Tracking & Budgeting Tools": "https://www.futureinvo.com/services/business-tools#finance-budgeting",
+      "Workflow Automation (Custom Tools)": "https://www.futureinvo.com/services/business-tools#custom-workflow",
+      "Custom ERP Modules": "https://www.futureinvo.com/services/business-tools#custom-erp",
+      "Industry-Specific Solutions": "https://www.futureinvo.com/services/business-tools#custom-industry"
+    }
+  }
+}
